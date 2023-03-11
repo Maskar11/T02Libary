@@ -33,6 +33,39 @@
 //3.Turune Gore Listele
 //4. Cikis
 
+############################## Classes #############################
+# Book
+    * ISBN int veya string
+    * BookName string
+    + description string
+    > LAnguage string
+    * Authour string
+    * Type string
+    * PageCount int
+    > Status int 1 stock 0 barrowed 
+    > memberid int 
+    > barrowed_date date
+    > expected_date date
+
+# Person
+    > Fullname string
+    > email string
+    > phone string
+    > address string
+    > DoB date or string
+
+# member extends person
+    > memberid int
+    > username string
+    > password string
+    > status int 0 pasif 1 aktif -1 cezali 
+    > MerbershipStarting date *
+    > LastLoginAt time *
+    
+# Admin extends person
+    > Adminid int
+    > username string
+    > password string
 //Eger Admin Member islemlerini secerse Member islemleri menusu gelsin
 // ************* ADMIN ICIN MEMBER ISLEMLERI MENUSU*************
 //1. Member Ekle
