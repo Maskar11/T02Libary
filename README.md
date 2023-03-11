@@ -33,6 +33,27 @@
 //3.Turune Gore Listele
 //4. Cikis
 
+//Member Olarak Giris Yap secilirse kullanicidan username ve password girilmesi istenir
+//username ve password'un dogrulugu check edilir 
+//user name ve password doru use member islemleri menusu gelir
+//************ MEMBER ICIN MEMBER ISLEMLERI MENUSU*************
+//1. Kitap Bul
+//2. Kitap Al
+//3. Kitap Listele
+//4. Kitap Geri ver
+//5. Cikis
+
+//Eger Admin Member islemlerini secerse Member islemleri menusu gelsin
+// ************* ADMIN ICIN MEMBER ISLEMLERI MENUSU*************
+//1. Member Ekle
+//2. Member Sil
+//3. Membber Update Et
+//4. Member'lari Listele
+//5. Member Bul ve Bilgilerini Goruntule
+//6. Cikis
+
+
+
 ############################## Classes #############################
 # Book
     * ISBN int veya string
@@ -46,6 +67,7 @@
     > memberid int 
     > barrowed_date date
     > expected_date date
+   
 
 # Person
     > Fullname string
@@ -53,6 +75,7 @@
     > phone string
     > address string
     > DoB date or string
+    -- Bahadir Gok
 
 # member extends person
     > memberid int
@@ -66,23 +89,5 @@
     > Adminid int
     > username string
     > password string
-//Eger Admin Member islemlerini secerse Member islemleri menusu gelsin
-// ************* ADMIN ICIN MEMBER ISLEMLERI MENUSU*************
-//1. Member Ekle
-//2. Member Sil
-//3. Membber Update Et
-//4. Member'lari Listele
-//5. Member Bul ve Bilgilerini Goruntule
-//6. Cikis
+--Taha yavas
 
-
-
-//Member Olarak Giris Yap secilirse kullanicidan username ve password girilmesi istenir
-//username ve password'un dogrulugu check edilir 
-//user name ve password doru use member islemleri menusu gelir
-//************ MEMBER ICIN MEMBER ISLEMLERI MENUSU*************
-//1. Kitap Bul
-//2. Kitap Al
-//3. Kitap Listele
-//4. Kitap Geri ver
-//5. Cikis
