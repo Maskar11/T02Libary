@@ -67,6 +67,7 @@
     > memberid int 
     > barrowed_date date
     > expected_date date
+-->mgumus
    
 
 # Person
@@ -75,7 +76,7 @@
     > phone string
     > address string
     > DoB date or string
-    -- Bahadir Gok
+--> Bahadir Gok
 
 # member extends person
     > memberid int
@@ -84,6 +85,7 @@
     > status int 0 pasif 1 aktif -1 cezali 
     > MerbershipStarting date *
     > LastLoginAt time *
+-->minci
     
 # Admin extends person
     > Adminid int
