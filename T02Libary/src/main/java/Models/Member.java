@@ -1,3 +1,5 @@
+package T02Libary.src.main.java.Models;
+
 import java.util.Date;
 
 public class Member {
