@@ -11,7 +11,6 @@ public class Member {
 //    > status int 0 pasif 1 aktif -1 cezali
 //    > MerbershipStarting date *
 //            > LastLoginAt time *
-//
 
 
     //fields

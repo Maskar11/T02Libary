@@ -1,9 +1,10 @@
-package T02Libary.src.main.java.Models;
+package Models;
 
 import java.time.LocalDate;
 import java.util.Date;
 
 public class Person {
+
     private String fullname;
     private String email;
     private String phone; // with country code included it
